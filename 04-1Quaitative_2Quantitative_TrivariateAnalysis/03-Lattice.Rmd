@@ -1,0 +1,44 @@
+---
+title: "Trivariate Analysis for 1 Quantitative and 2 Qualitative variables"
+output: github_document
+---
+
+
+# Charts
+
+## Color-coded Scatterplot
+
+```{r}
+
+```
+
+## Shaped-coded Scatterplot
+
+```{r}
+
+```
+
+## Faceted Scatterplot
+
+```{r}
+
+```
+
+## Multi-series Line Chart
+
+```{r}
+
+```
+
+## Stacked Area Chart
+
+```{r}
+
+```
+
+## Faceted Line Chart
+
+```{r}
+
+```
+
