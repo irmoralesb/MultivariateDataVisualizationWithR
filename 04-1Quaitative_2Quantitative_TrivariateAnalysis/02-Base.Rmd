@@ -18,7 +18,6 @@ colors <- brewer.pal(4, "Set1")
 ```
 
 
-
 ## Color-coded Scatterplot
 
 ```{r}
