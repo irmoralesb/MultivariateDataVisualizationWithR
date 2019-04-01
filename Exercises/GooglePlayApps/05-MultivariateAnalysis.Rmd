@@ -1,0 +1,58 @@
+---
+title: "Multivariate Analysis"
+output: github_document
+---
+
+# Setup Environment
+
+From the previous course I created the rda file for the Google Play App, also in there is the data wrangling process and original source from kaggle.com, if you want to see where the data is coming from and how it was transformed, you can take a look at [here](https://github.com/irmoralesb/BeginningDataVisualizationWithR).
+
+Quantitative Variables
+
+    * Ratings
+    * Reviews
+    * Size (Numeric)
+    * Price
+    
+Qualitative Variables
+
+    * Category
+    * Installs (Install range)
+    * Type (Free/Paid)
+    * Content Rating
+    * Genre
+
+We are to display the relationship between:
+   
+    * Reviews, Rating, Price.
+    * Rating, Price, Size.
+
+```{r}
+library(tidyverse)
+library(corrgram)
+library(reshape2)
+library(GGally)
+load("rda/apps_versions_dataset.rda")
+
+```
+
+
+# Charts/Plots
+
+## Correlogram
+
+```{r}
+
+```
+
+## Scatterplot Matrix
+```{r}
+
+```
+
+## Parallel Coordinates Plot
+
+```{r}
+
+```
+
